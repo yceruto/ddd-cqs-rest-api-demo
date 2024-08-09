@@ -1,24 +1,24 @@
 <?php
 
-namespace App\Catalog\Product\Presentation\Controller\Patch;
+namespace App\Catalog\Product\Presentation\Http\Put;
 
 use App\Catalog\Product\Domain\Model\ProductStatus;
-use App\Catalog\Product\Presentation\Model\ProductPriceBody;
+use App\Catalog\Product\Presentation\Http\ProductPricePayload;
 use OpenApi\Attributes\Schema;
 use OpenSolid\OpenApiBundle\Attribute\Property;
 
 #[Schema(writeOnly: true)]
-class PatchProductBody
+class PutProductPayload
 {
     #[Property(maxLength: 255, minLength: 3)]
-    public ?string $name = null;
+    public string $name;
 
     #[Property(maxLength: 255, minLength: 10)]
-    public ?string $description = null;
+    public string $description;
 
     #[Property]
-    public ?ProductPriceBody $price = null;
+    public ProductPricePayload $price;
 
     #[Property(enum: ProductStatus::class)]
-    public ?string $status = null;
+    public string $status;
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Catalog\Product\Presentation\Controller\Get;
+namespace App\Catalog\Product\Presentation\Http\Get;
 
 use App\Catalog\Product\Application\Find\FindProduct;
 use App\Catalog\Product\Presentation\View\ProductView;

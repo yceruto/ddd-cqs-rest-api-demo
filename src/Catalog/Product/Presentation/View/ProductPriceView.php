@@ -9,10 +9,17 @@ use OpenSolid\OpenApiBundle\Attribute\Property;
 #[Schema]
 readonly class ProductPriceView
 {
-    #[Property(description: 'The product price amount in cents')]
+    #[Property(
+        description: 'The product price amount in cents',
+        example: '1000',
+    )]
     public string $amount;
 
-    #[Property(description: 'The product price currency')]
+    #[Property(
+        description: 'The product price currency',
+        format: 'currency',
+        example: 'EUR',
+    )]
     public string $currency;
 
     public static function from(Money $price): self

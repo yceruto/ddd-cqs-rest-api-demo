@@ -1,7 +1,7 @@
 catalog_product:
     resource:
-        path: ../src/Catalog/Product/Presentation/Controller/
-        namespace: App\Catalog\Product\Presentation\Controller
+        path: ../src/Catalog/Product/Presentation/Http/
+        namespace: App\Catalog\Product\Presentation\Http
     type: attribute
 
 openapi:

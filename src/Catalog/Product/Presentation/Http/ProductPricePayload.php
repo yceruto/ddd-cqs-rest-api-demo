@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Catalog\Product\Presentation\Model;
+namespace App\Catalog\Product\Presentation\Http;
 
 use OpenApi\Attributes\Schema;
 use OpenSolid\OpenApiBundle\Attribute\Property;
@@ -8,7 +8,7 @@ use OpenSolid\OpenApiBundle\Attribute\Property;
 #[Schema(
     writeOnly: true
 )]
-class ProductPriceBody
+class ProductPricePayload
 {
     #[Property(
         description: 'The product price amount in cents',

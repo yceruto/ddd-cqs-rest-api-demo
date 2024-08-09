@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Catalog\Product\Presentation\Controller\Post;
+namespace App\Catalog\Product\Presentation\Http\Post;
 
 use App\Catalog\Product\Domain\Model\ProductStatus;
-use App\Catalog\Product\Presentation\Model\ProductPriceBody;
+use App\Catalog\Product\Presentation\Http\ProductPricePayload;
 use OpenApi\Attributes\Schema;
 use OpenSolid\OpenApiBundle\Attribute\Property;
 
@@ -11,7 +11,7 @@ use OpenSolid\OpenApiBundle\Attribute\Property;
     description: 'Create a new product',
     writeOnly: true,
 )]
-class PostProductBody
+class PostProductPayload
 {
     #[Property(
         description: 'The unique identifier of the new product',
@@ -34,7 +34,7 @@ class PostProductBody
     public string $description;
 
     #[Property(description: 'The price of the product')]
-    public ProductPriceBody $price;
+    public ProductPricePayload $price;
 
     #[Property(
         description: 'The initial status of the product',

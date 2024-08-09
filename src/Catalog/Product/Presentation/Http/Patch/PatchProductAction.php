@@ -1,14 +1,12 @@
 <?php
 
-namespace App\Catalog\Product\Presentation\Controller\Patch;
+namespace App\Catalog\Product\Presentation\Http\Patch;
 
-use App\Catalog\Product\Application\Find\FindProduct;
 use App\Catalog\Product\Application\Update\UpdateProduct;
 use App\Catalog\Product\Presentation\View\ProductView;
 use App\Shared\Presentation\OpenApi\Attribute\Id;
 use OpenSolid\CqsBundle\Controller\CommandAction;
-use OpenSolid\CqsBundle\Controller\CqsAction;
-use OpenSolid\OpenApiBundle\Attribute\Body;
+use OpenSolid\OpenApiBundle\Attribute\Payload;
 use OpenSolid\OpenApiBundle\Routing\Attribute\Patch;
 
 class PatchProductAction extends CommandAction
@@ -18,15 +16,15 @@ class PatchProductAction extends CommandAction
         summary: 'Update a product partially',
         tags: ['Product'],
     )]
-    public function __invoke(#[Id] string $id, #[Body] PatchProductBody $body): ProductView
+    public function __invoke(#[Id] string $id, #[Payload] PatchProductPayload $payload): ProductView
     {
         $product = $this->commandBus()->execute(new UpdateProduct(
             $id,
-            $body->name,
-            $body->description,
-            $body->price?->amount,
-            $body->price?->currency,
-            $body->status,
+            $payload->name,
+            $payload->description,
+            $payload->price?->amount,
+            $payload->price?->currency,
+            $payload->status,
         ));
 
         return ProductView::from($product);

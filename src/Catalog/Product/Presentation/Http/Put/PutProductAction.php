@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Catalog\Product\Presentation\Controller\Put;
+namespace App\Catalog\Product\Presentation\Http\Put;
 
 use App\Catalog\Product\Application\Update\UpdateProduct;
 use App\Catalog\Product\Presentation\View\ProductView;
 use App\Shared\Presentation\OpenApi\Attribute\Id;
 use OpenSolid\CqsBundle\Controller\CommandAction;
-use OpenSolid\OpenApiBundle\Attribute\Body;
+use OpenSolid\OpenApiBundle\Attribute\Payload;
 use OpenSolid\OpenApiBundle\Routing\Attribute\Put;
 
 class PutProductAction extends CommandAction
@@ -16,15 +16,15 @@ class PutProductAction extends CommandAction
         summary: 'Update a product',
         tags: ['Product'],
     )]
-    public function __invoke(#[Id] string $id, #[Body] PutProductBody $body): ProductView
+    public function __invoke(#[Id] string $id, #[Payload] PutProductPayload $payload): ProductView
     {
         $product = $this->commandBus()->execute(new UpdateProduct(
             $id,
-            $body->name,
-            $body->description,
-            $body->price->amount,
-            $body->price->currency,
-            $body->status,
+            $payload->name,
+            $payload->description,
+            $payload->price->amount,
+            $payload->price->currency,
+            $payload->status,
         ));
 
         return ProductView::from($product);

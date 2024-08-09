@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Catalog\Product\Presentation\Controller\Get;
+namespace App\Catalog\Product\Presentation\Http\Get;
 
 use OpenSolid\OpenApiBundle\Attribute\Param;
 use Symfony\Component\Validator\Constraints as Assert;

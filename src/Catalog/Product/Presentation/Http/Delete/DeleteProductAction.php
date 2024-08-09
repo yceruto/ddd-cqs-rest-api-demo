@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Catalog\Product\Presentation\Controller\Delete;
+namespace App\Catalog\Product\Presentation\Http\Delete;
 
 use App\Catalog\Product\Application\Delete\DeleteProduct;
 use App\Shared\Presentation\OpenApi\Attribute\Id;
