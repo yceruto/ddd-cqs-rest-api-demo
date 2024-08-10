@@ -5,7 +5,7 @@ namespace App\Catalog\Product\Presentation\Http\Post;
 use App\Catalog\Product\Application\Create\CreateProduct;
 use App\Catalog\Product\Domain\Model\ProductId;
 use App\Catalog\Product\Presentation\View\ProductNewView;
-use OpenSolid\CqsBundle\Controller\CommandAction;
+use OpenSolid\CqsBundle\Action\CommandAction;
 use OpenSolid\OpenApiBundle\Attribute\Payload;
 use OpenSolid\OpenApiBundle\Routing\Attribute\Post;
 

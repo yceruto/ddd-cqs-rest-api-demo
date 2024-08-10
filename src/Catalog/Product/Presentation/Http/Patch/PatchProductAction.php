@@ -5,7 +5,7 @@ namespace App\Catalog\Product\Presentation\Http\Patch;
 use App\Catalog\Product\Application\Update\UpdateProduct;
 use App\Catalog\Product\Presentation\View\ProductView;
 use App\Shared\Presentation\OpenApi\Attribute\Id;
-use OpenSolid\CqsBundle\Controller\CommandAction;
+use OpenSolid\CqsBundle\Action\CommandAction;
 use OpenSolid\OpenApiBundle\Attribute\Payload;
 use OpenSolid\OpenApiBundle\Routing\Attribute\Patch;
 

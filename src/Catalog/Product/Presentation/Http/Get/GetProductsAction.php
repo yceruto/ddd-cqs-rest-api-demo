@@ -4,7 +4,7 @@ namespace App\Catalog\Product\Presentation\Http\Get;
 
 use App\Catalog\Product\Application\Find\FindProducts;
 use App\Catalog\Product\Presentation\View\ProductListItemView;
-use OpenSolid\CqsBundle\Controller\QueryAction;
+use OpenSolid\CqsBundle\Action\QueryAction;
 use OpenSolid\OpenApiBundle\Attribute\Query;
 use OpenSolid\OpenApiBundle\Routing\Attribute\Get;
 

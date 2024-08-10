@@ -1327,16 +1327,16 @@
         },
         {
             "name": "open-solid/cqs-bundle",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-solid/cqs-bundle.git",
-                "reference": "e99f8b0a5080e551d847f3dfefc04729ee5c5b65"
+                "reference": "179b5be5d8c273323a78442311bff75f0d90f93e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-solid/cqs-bundle/zipball/e99f8b0a5080e551d847f3dfefc04729ee5c5b65",
-                "reference": "e99f8b0a5080e551d847f3dfefc04729ee5c5b65",
+                "url": "https://api.github.com/repos/open-solid/cqs-bundle/zipball/179b5be5d8c273323a78442311bff75f0d90f93e",
+                "reference": "179b5be5d8c273323a78442311bff75f0d90f93e",
                 "shasum": ""
             },
             "require": {
@@ -1373,9 +1373,9 @@
             "description": "Symfony integration for Command Query Separation pattern",
             "support": {
                 "issues": "https://github.com/open-solid/cqs-bundle/issues",
-                "source": "https://github.com/open-solid/cqs-bundle/tree/v1.0.3"
+                "source": "https://github.com/open-solid/cqs-bundle/tree/v1.0.4"
             },
-            "time": "2024-08-05T22:32:17+00:00"
+            "time": "2024-08-10T16:43:57+00:00"
         },
         {
             "name": "open-solid/domain",

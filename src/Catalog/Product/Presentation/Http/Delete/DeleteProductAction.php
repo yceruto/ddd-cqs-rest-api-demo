@@ -4,7 +4,7 @@ namespace App\Catalog\Product\Presentation\Http\Delete;
 
 use App\Catalog\Product\Application\Delete\DeleteProduct;
 use App\Shared\Presentation\OpenApi\Attribute\Id;
-use OpenSolid\CqsBundle\Controller\CommandAction;
+use OpenSolid\CqsBundle\Action\CommandAction;
 use OpenSolid\OpenApiBundle\Routing\Attribute\Delete;
 
 class DeleteProductAction extends CommandAction
