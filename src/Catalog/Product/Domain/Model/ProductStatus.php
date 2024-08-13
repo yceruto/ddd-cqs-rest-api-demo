@@ -29,16 +29,16 @@ enum ProductStatus: string
 
     public function isDraft(): bool
     {
-        return $this === self::DRAFT;
+        return self::DRAFT === $this;
     }
 
     public function isPublished(): bool
     {
-        return $this === self::PUBLISHED;
+        return self::PUBLISHED === $this;
     }
 
     public function isArchived(): bool
     {
-        return $this === self::ARCHIVED;
+        return self::ARCHIVED === $this;
     }
 }
