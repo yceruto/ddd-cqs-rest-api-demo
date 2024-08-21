@@ -1228,16 +1228,16 @@
         },
         {
             "name": "open-solid/bus",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-solid/bus.git",
-                "reference": "ebb91dec22333ee8f3cdba620364f335ec43fc95"
+                "reference": "464299f3ad571fa9d90e875435a09553552ca07e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-solid/bus/zipball/ebb91dec22333ee8f3cdba620364f335ec43fc95",
-                "reference": "ebb91dec22333ee8f3cdba620364f335ec43fc95",
+                "url": "https://api.github.com/repos/open-solid/bus/zipball/464299f3ad571fa9d90e875435a09553552ca07e",
+                "reference": "464299f3ad571fa9d90e875435a09553552ca07e",
                 "shasum": ""
             },
             "require": {
@@ -1273,9 +1273,9 @@
             "description": "Simple Bus Component",
             "support": {
                 "issues": "https://github.com/open-solid/bus/issues",
-                "source": "https://github.com/open-solid/bus/tree/v1.1.1"
+                "source": "https://github.com/open-solid/bus/tree/v1.1.2"
             },
-            "time": "2024-08-21T19:04:30+00:00"
+            "time": "2024-08-21T19:29:55+00:00"
         },
         {
             "name": "open-solid/cqs",
@@ -1327,16 +1327,16 @@
         },
         {
             "name": "open-solid/cqs-bundle",
-            "version": "v1.0.7",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-solid/cqs-bundle.git",
-                "reference": "28ba8559873ba069c667f4c44c685bb3c574c227"
+                "reference": "220eea0b1a6864403599fb98f88fa62412fe2e47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-solid/cqs-bundle/zipball/28ba8559873ba069c667f4c44c685bb3c574c227",
-                "reference": "28ba8559873ba069c667f4c44c685bb3c574c227",
+                "url": "https://api.github.com/repos/open-solid/cqs-bundle/zipball/220eea0b1a6864403599fb98f88fa62412fe2e47",
+                "reference": "220eea0b1a6864403599fb98f88fa62412fe2e47",
                 "shasum": ""
             },
             "require": {
@@ -1373,9 +1373,9 @@
             "description": "Symfony integration for Command Query Separation pattern",
             "support": {
                 "issues": "https://github.com/open-solid/cqs-bundle/issues",
-                "source": "https://github.com/open-solid/cqs-bundle/tree/v1.0.7"
+                "source": "https://github.com/open-solid/cqs-bundle/tree/v1.0.8"
             },
-            "time": "2024-08-21T18:53:57+00:00"
+            "time": "2024-08-21T19:30:31+00:00"
         },
         {
             "name": "open-solid/domain",
