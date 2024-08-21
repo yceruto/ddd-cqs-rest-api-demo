@@ -278,16 +278,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "3.8.7",
+            "version": "3.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "2093d670ca17f634f3c095ec10a20687eccebd99"
+                "reference": "d8f68ea6cc00912e5313237130b8c8decf4d28c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/2093d670ca17f634f3c095ec10a20687eccebd99",
-                "reference": "2093d670ca17f634f3c095ec10a20687eccebd99",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/d8f68ea6cc00912e5313237130b8c8decf4d28c6",
+                "reference": "d8f68ea6cc00912e5313237130b8c8decf4d28c6",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +371,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
-                "source": "https://github.com/doctrine/dbal/tree/3.8.7"
+                "source": "https://github.com/doctrine/dbal/tree/3.9.0"
             },
             "funding": [
                 {
@@ -387,7 +387,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-08-07T11:57:25+00:00"
+            "time": "2024-08-15T07:34:42+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -1228,16 +1228,16 @@
         },
         {
             "name": "open-solid/bus",
-            "version": "v1.0.9",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-solid/bus.git",
-                "reference": "0566adb58be6aaafaa496f5571fdc4155307e716"
+                "reference": "ebb91dec22333ee8f3cdba620364f335ec43fc95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-solid/bus/zipball/0566adb58be6aaafaa496f5571fdc4155307e716",
-                "reference": "0566adb58be6aaafaa496f5571fdc4155307e716",
+                "url": "https://api.github.com/repos/open-solid/bus/zipball/ebb91dec22333ee8f3cdba620364f335ec43fc95",
+                "reference": "ebb91dec22333ee8f3cdba620364f335ec43fc95",
                 "shasum": ""
             },
             "require": {
@@ -1251,7 +1251,7 @@
                 "friendsofphp/php-cs-fixer": "^3.54",
                 "phpunit/phpunit": "^10.0",
                 "psalm/plugin-phpunit": "^0.18",
-                "symfony/dependency-injection": "^7.0",
+                "symfony/dependency-injection": "^7.1",
                 "vimeo/psalm": "^5.0"
             },
             "type": "library",
@@ -1273,33 +1273,33 @@
             "description": "Simple Bus Component",
             "support": {
                 "issues": "https://github.com/open-solid/bus/issues",
-                "source": "https://github.com/open-solid/bus/tree/v1.0.9"
+                "source": "https://github.com/open-solid/bus/tree/v1.1.1"
             },
-            "time": "2024-08-10T16:57:23+00:00"
+            "time": "2024-08-21T19:04:30+00:00"
         },
         {
             "name": "open-solid/cqs",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-solid/cqs.git",
-                "reference": "a1c834971cabf3f1faa86708124c889313ea546e"
+                "reference": "39039514a9606433f64235b10a747feeb146c766"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-solid/cqs/zipball/a1c834971cabf3f1faa86708124c889313ea546e",
-                "reference": "a1c834971cabf3f1faa86708124c889313ea546e",
+                "url": "https://api.github.com/repos/open-solid/cqs/zipball/39039514a9606433f64235b10a747feeb146c766",
+                "reference": "39039514a9606433f64235b10a747feeb146c766",
                 "shasum": ""
             },
             "require": {
-                "open-solid/bus": "^1.0.5",
+                "open-solid/bus": "^1.1",
                 "php": ">=8.2"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.54",
                 "phpunit/phpunit": "^10.0",
                 "psalm/plugin-phpunit": "^0.18",
-                "symfony/messenger": "^7.0",
+                "symfony/messenger": "^7.1",
                 "vimeo/psalm": "^5.0"
             },
             "type": "library",
@@ -1321,29 +1321,28 @@
             "description": "Contract for Command Query Separation pattern",
             "support": {
                 "issues": "https://github.com/open-solid/cqs/issues",
-                "source": "https://github.com/open-solid/cqs/tree/v1.0.3"
+                "source": "https://github.com/open-solid/cqs/tree/v1.0.4"
             },
-            "time": "2024-08-07T15:37:02+00:00"
+            "time": "2024-08-21T18:21:03+00:00"
         },
         {
             "name": "open-solid/cqs-bundle",
-            "version": "v1.0.5",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-solid/cqs-bundle.git",
-                "reference": "0fc61a13a3ec1e0dffbb2d1c3e68cf732cbceb3c"
+                "reference": "28ba8559873ba069c667f4c44c685bb3c574c227"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-solid/cqs-bundle/zipball/0fc61a13a3ec1e0dffbb2d1c3e68cf732cbceb3c",
-                "reference": "0fc61a13a3ec1e0dffbb2d1c3e68cf732cbceb3c",
+                "url": "https://api.github.com/repos/open-solid/cqs-bundle/zipball/28ba8559873ba069c667f4c44c685bb3c574c227",
+                "reference": "28ba8559873ba069c667f4c44c685bb3c574c227",
                 "shasum": ""
             },
             "require": {
                 "open-solid/cqs": "^1.0",
                 "php": ">=8.2",
-                "symfony/framework-bundle": "^7.1",
-                "symfony/yaml": "^7.1"
+                "symfony/framework-bundle": "^7.1"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "^2.12",
@@ -1352,7 +1351,8 @@
                 "phpunit/phpunit": "^10.0",
                 "roave/security-advisories": "dev-latest",
                 "symfony/browser-kit": "^7.1",
-                "symfony/messenger": "^7.1"
+                "symfony/messenger": "^7.1",
+                "symfony/yaml": "^7.1"
             },
             "type": "library",
             "autoload": {
@@ -1373,26 +1373,26 @@
             "description": "Symfony integration for Command Query Separation pattern",
             "support": {
                 "issues": "https://github.com/open-solid/cqs-bundle/issues",
-                "source": "https://github.com/open-solid/cqs-bundle/tree/v1.0.5"
+                "source": "https://github.com/open-solid/cqs-bundle/tree/v1.0.7"
             },
-            "time": "2024-08-10T16:57:50+00:00"
+            "time": "2024-08-21T18:53:57+00:00"
         },
         {
             "name": "open-solid/domain",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-solid/domain.git",
-                "reference": "7235b131b342b9e9272158f3d944b3d04cc20f94"
+                "reference": "af37d37ff2f0c18040541ae7c88a4075d92dde7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-solid/domain/zipball/7235b131b342b9e9272158f3d944b3d04cc20f94",
-                "reference": "7235b131b342b9e9272158f3d944b3d04cc20f94",
+                "url": "https://api.github.com/repos/open-solid/domain/zipball/af37d37ff2f0c18040541ae7c88a4075d92dde7e",
+                "reference": "af37d37ff2f0c18040541ae7c88a4075d92dde7e",
                 "shasum": ""
             },
             "require": {
-                "open-solid/bus": "^1.0.2",
+                "open-solid/bus": "^1.1",
                 "php": ">=8.2",
                 "symfony/string": "^7.1",
                 "symfony/uid": "^7.1"
@@ -1400,7 +1400,7 @@
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.54",
                 "phpunit/phpunit": "^11.1",
-                "symfony/messenger": "^7.0"
+                "symfony/messenger": "^7.1"
             },
             "type": "library",
             "autoload": {
@@ -1421,22 +1421,22 @@
             "description": "Domain events, event bus and more",
             "support": {
                 "issues": "https://github.com/open-solid/domain/issues",
-                "source": "https://github.com/open-solid/domain/tree/v1.0.2"
+                "source": "https://github.com/open-solid/domain/tree/v1.0.3"
             },
-            "time": "2024-08-06T12:31:46+00:00"
+            "time": "2024-08-21T18:41:36+00:00"
         },
         {
             "name": "open-solid/domain-bundle",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-solid/domain-bundle.git",
-                "reference": "d0586913bdd249423bf5c3d3a9b2a667b7460336"
+                "reference": "c0c6fc19ce41e0f4f36eeb0446171b579b4dd194"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-solid/domain-bundle/zipball/d0586913bdd249423bf5c3d3a9b2a667b7460336",
-                "reference": "d0586913bdd249423bf5c3d3a9b2a667b7460336",
+                "url": "https://api.github.com/repos/open-solid/domain-bundle/zipball/c0c6fc19ce41e0f4f36eeb0446171b579b4dd194",
+                "reference": "c0c6fc19ce41e0f4f36eeb0446171b579b4dd194",
                 "shasum": ""
             },
             "require": {
@@ -1467,9 +1467,9 @@
             "description": "Symfony bundle for domain building blocks",
             "support": {
                 "issues": "https://github.com/open-solid/domain-bundle/issues",
-                "source": "https://github.com/open-solid/domain-bundle/tree/v1.0.2"
+                "source": "https://github.com/open-solid/domain-bundle/tree/v1.0.3"
             },
-            "time": "2024-08-06T12:59:53+00:00"
+            "time": "2024-08-21T18:47:09+00:00"
         },
         {
             "name": "open-solid/open-api-bundle",
@@ -1735,16 +1735,16 @@
         },
         {
             "name": "psr/log",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001"
+                "reference": "79dff0b268932c640297f5208d6298f71855c03e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/fe5ea303b0887d5caefd3d431c3e61ad47037001",
-                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/79dff0b268932c640297f5208d6298f71855c03e",
+                "reference": "79dff0b268932c640297f5208d6298f71855c03e",
                 "shasum": ""
             },
             "require": {
@@ -1779,9 +1779,9 @@
                 "psr-3"
             ],
             "support": {
-                "source": "https://github.com/php-fig/log/tree/3.0.0"
+                "source": "https://github.com/php-fig/log/tree/3.0.1"
             },
-            "time": "2021-07-14T16:46:02+00:00"
+            "time": "2024-08-21T13:31:24+00:00"
         },
         {
             "name": "symfony/cache",
@@ -6116,12 +6116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "fe2777b484817ebbbe50ad685af7525560198c59"
+                "reference": "8938260885863ec2dd9f2aaf9a79ba14e58a92f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/fe2777b484817ebbbe50ad685af7525560198c59",
-                "reference": "fe2777b484817ebbbe50ad685af7525560198c59",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/8938260885863ec2dd9f2aaf9a79ba14e58a92f6",
+                "reference": "8938260885863ec2dd9f2aaf9a79ba14e58a92f6",
                 "shasum": ""
             },
             "conflict": {
@@ -6159,7 +6159,7 @@
                 "athlon1600/php-proxy-app": "<=3",
                 "austintoddj/canvas": "<=3.4.2",
                 "auth0/wordpress": "<=4.6",
-                "automad/automad": "<=2.0.0.0-alpha5",
+                "automad/automad": "<2.0.0.0-alpha5",
                 "automattic/jetpack": "<9.8",
                 "awesome-support/awesome-support": "<=6.0.7",
                 "aws/aws-sdk-php": "<3.288.1",
@@ -6287,7 +6287,7 @@
                 "ezsystems/ezplatform-graphql": ">=1.0.0.0-RC1-dev,<1.0.13|>=2.0.0.0-beta1,<2.3.12",
                 "ezsystems/ezplatform-kernel": "<1.2.5.1-dev|>=1.3,<1.3.35",
                 "ezsystems/ezplatform-rest": ">=1.2,<=1.2.2|>=1.3,<1.3.8",
-                "ezsystems/ezplatform-richtext": ">=2.3,<2.3.7.1-dev",
+                "ezsystems/ezplatform-richtext": ">=2.3,<2.3.7.1-dev|>=3.3,<3.3.40",
                 "ezsystems/ezplatform-solr-search-engine": ">=1.7,<1.7.12|>=2,<2.0.2|>=3.3,<3.3.15",
                 "ezsystems/ezplatform-user": ">=1,<1.0.1",
                 "ezsystems/ezpublish-kernel": "<6.13.8.2-dev|>=7,<7.5.31",
@@ -6368,6 +6368,7 @@
                 "hyn/multi-tenant": ">=5.6,<5.7.2",
                 "ibexa/admin-ui": ">=4.2,<4.2.3|>=4.6.0.0-beta1,<4.6.9",
                 "ibexa/core": ">=4,<4.0.7|>=4.1,<4.1.4|>=4.2,<4.2.3|>=4.5,<4.5.6|>=4.6,<4.6.2",
+                "ibexa/fieldtype-richtext": ">=4.6,<4.6.10",
                 "ibexa/graphql": ">=2.5,<2.5.31|>=3.3,<3.3.28|>=4.2,<4.2.3",
                 "ibexa/post-install": "<=1.0.4",
                 "ibexa/solr": ">=4.5,<4.5.4",
@@ -6610,6 +6611,7 @@
                 "pubnub/pubnub": "<6.1",
                 "pusher/pusher-php-server": "<2.2.1",
                 "pwweb/laravel-core": "<=0.3.6.0-beta",
+                "pxlrbt/filament-excel": "<2.3.3",
                 "pyrocms/pyrocms": "<=3.9.1",
                 "qcubed/qcubed": "<=3.1.1",
                 "quickapps/cms": "<=2.0.0.0-beta2",
@@ -6923,7 +6925,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-08-08T21:04:55+00:00"
+            "time": "2024-08-19T21:04:39+00:00"
         },
         {
             "name": "sebastian/cli-parser",
